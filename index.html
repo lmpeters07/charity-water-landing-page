@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity:Water - Clean Water Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center">
+
+    <!-- Header Section -->
+    <header class="w-full bg-white shadow-sm py-4 px-8 md:px-16 lg:px-24 flex justify-between items-center rounded-b-xl">
+        <div class="flex items-center space-x-2">
+            <!-- Logo Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm.001 1.777c.451 0 .817.366.817.817v4.086a.817.817 0 01-1.634 0V4.594a.817.817 0 01.817-.817zM12 10.98a.817.817 0 01.817.817v4.086a.817.817 0 01-1.634 0v-4.086a.817.817 0 01.817-.817zm4.086 5.347a.817.817 0 01-.817.817H8.73a.817.817 0 01-.817-.817v-2.45a.817.817 0 011.634 0v1.633h5.728v-1.633a.817.817 0 011.634 0v2.45z"/>
+            </svg>
+            <span class="text-2xl font-bold text-gray-800">Charity:<span class="text-yellow-500">Water</span></span>
+        </div>
+        <button class="bg-orange-500 text-white font-semibold py-2 px-6 rounded-full shadow-lg hover:bg-orange-600 transition-colors duration-300">Donate now</button>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="w-full p-4 md:p-8 lg:p-12">
+        <!-- Hero Section with Images -->
+        <div class="bg-sky-500 rounded-3xl p-8 md:p-12 text-white grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+            <div class="flex flex-col space-y-8">
+                <div class="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                    You want your activism to create real, visible change. At Charity:<span class="text-yellow-400">Water</span>, every dollar you give funds clean water projects; 100% goes where it's needed most, and you see the proof.
+                </div>
+                <div class="text-lg md:text-xl leading-relaxed">
+                    Join a global movement of changemakers proving that transparency and action can solve the water crisis in our lifetime.
+                </div>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <input type="email" placeholder="Start helping today" class="flex-1 px-5 py-3 rounded-full text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+                    <button class="bg-orange-500 text-white font-semibold py-3 px-8 rounded-full shadow-md hover:bg-orange-600 transition-colors duration-300">Donate now</button>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-8">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <img src="https://placehold.co/400x300/e5e7eb/6b7280?text=Placeholder+Image+1" alt="Placeholder image of a person in a desert" class="w-full rounded-2xl object-cover shadow-lg">
+                    <img src="https://placehold.co/400x300/e5e7eb/6b7280?text=Placeholder+Image+2" alt="Placeholder image of children smiling" class="w-full rounded-2xl object-cover shadow-lg">
+                </div>
+                <div class="relative">
+                    <img src="https://placehold.co/800x600/e5e7eb/6b7280?text=Placeholder+Image+3" alt="Placeholder image of people working on a rig" class="w-full rounded-2xl object-cover shadow-lg">
+                    <div class="absolute bottom-4 right-4 flex items-center bg-white rounded-full px-4 py-2 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-500" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm.001 1.777c.451 0 .817.366.817.817v4.086a.817.817 0 01-1.634 0V4.594a.817.817 0 01.817-.817zM12 10.98a.817.817 0 01.817.817v4.086a.817.817 0 01-1.634 0v-4.086a.817.817 0 01.817-.817zm4.086 5.347a.817.817 0 01-.817.817H8.73a.817.817 0 01-.817-.817v-2.45a.817.817 0 011.634 0v1.633h5.728v-1.633a.817.817 0 011.634 0v2.45z"/>
+                        </svg>
+                        <span class="ml-2 text-gray-800 font-bold">charity: water</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
